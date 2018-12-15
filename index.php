@@ -1,3 +1,5 @@
+<a href="post.php">Add comment</a><br><br>
+
 <?php
     require_once('connection.php');
 
@@ -25,7 +27,9 @@
             <?= $row['body'] ?>
         </div>
         <hr>
+        <a href="progress.php?action=delete&id=<?= $row['id'] ?>">Delete</a>
     </div>
+    <br><br>
 <?php
     }
 ?>
