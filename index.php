@@ -16,6 +16,11 @@
         </div>
         <br>
         <div>
+            <label for="CreateTime">Create Time:</label>
+            <?= $row['create_time'] ?>
+        </div>
+        <br>
+        <div>
             <label for="Body">Content:</label>
             <?= $row['body'] ?>
         </div>
